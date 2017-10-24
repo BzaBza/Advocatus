@@ -6,7 +6,8 @@
     align-content: space-around;
     flex-wrap: wrap;
 }
-.frequently-content{
+
+.frequently-content {
     background-color: #e8bf5d;
     color: #111111;
     border-radius: 3px;
@@ -15,7 +16,8 @@
     padding: 3em;
     line-height: 31px;
 }
-.aside-content{
+
+.aside-content {
     display: flex;
     width: 100%;
     margin-left: 13.8%;

@@ -4,10 +4,12 @@
     align-content: space-around;
     flex-wrap: wrap;
 }
-.user-info>ul>li{
+
+.user-info > ul > li {
     list-style: none;
     font-style: italic;
 }
-.contact-content{
+
+.contact-content {
     display: flex;
 }
