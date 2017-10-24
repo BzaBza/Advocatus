@@ -1,0 +1,22 @@
+.frequently-asked-question {
+    height: 100vh;
+    background-color: #111111;
+    color: #ffffff;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.frequently-content{
+    background-color: #e8bf5d;
+    color: #111111;
+    border-radius: 3px;
+    box-shadow: 0 12px 40px rgba(216, 178, 87, 0.32);
+    width: 25em;
+    padding: 3em;
+    line-height: 31px;
+}
+.aside-content{
+    display: flex;
+    width: 100%;
+    margin-left: 13.8%;
+}

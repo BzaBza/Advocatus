@@ -1,0 +1,71 @@
+.practise-area {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.practise-area-content {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.area-content {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.area-content > li {
+    padding: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.icon-hand {
+    background-image: url("../icons/hand.png");
+    width: 58px;
+    height: 38px;
+    position: absolute;
+    margin-top: 2em;
+}
+
+.icon-tool {
+    background-image: url("../icons/tool.png");
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    margin-top: 2em;
+}
+
+.icon-display {
+    background-image: url("../icons/monitor.png");
+    height: 43px;
+    width: 49px;
+    position: absolute;
+    margin-top: 2em;
+}
+
+.icon-home {
+    background-image: url("../icons/home.png");
+    width: 42px;
+    height: 33px;
+    position: absolute;
+    margin-top: 2em;
+}
+
+.area-content-text {
+    padding-left: 5em;
+}

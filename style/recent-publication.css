@@ -1,0 +1,39 @@
+.recent-publications  {
+    height: 100vh;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.publication-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.publication-content > li {
+    display: flex;
+    width: 25%;
+}
+
+.comment-share {
+    padding:0;
+}
+
+.comment-share > li {
+    display: inline-block;
+}
+
+.comment {
+    float: left;
+    background-image: url("../icons/---29-comments.png");
+    height: 16px;
+    width: 137px;
+}
+
+.share {
+    background-image: url("../icons/---share.png");
+    width: 70px;
+    height: 15px;
+    float: right;
+}

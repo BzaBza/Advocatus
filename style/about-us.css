@@ -1,0 +1,41 @@
+.about-us {
+    height: 100vh;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.history {
+    width: 35%;
+}
+
+.history > dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.history > dl > dt {
+    width: 3em;
+    font-weight: 700;
+    font-size: 21px;
+    padding-top: 1em;
+}
+
+.history > dl > dd {
+    color: #111111;
+    margin-left: 1em;
+    width: 33em;
+    padding-top: 1em;
+}
+
+.expertise {
+    margin-left: 3em;
+    width: 35%;
+}
+
+.expertise > p {
+    margin-top: 1.5em;
+    color: #666666;
+    letter-spacing: 0.56px;
+    line-height: 31px;
+}

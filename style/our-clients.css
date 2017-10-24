@@ -1,0 +1,27 @@
+.our-clients-say{
+    height: 100vh;
+    background-color: #111111;
+    color: #ffffff;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.client-content{
+    display: flex;
+    align-items: center;
+}
+.description{
+    display: flex;
+    padding-left: 5em;
+    max-width: 40%;
+}
+.client-description{
+    padding-left: 1em;
+    max-width: 77%;
+}
+.quote{
+    margin-top: 1em;
+    background-image: url("../icons/quote.png");
+    width: 30px;
+    height: 25px;
+}

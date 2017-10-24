@@ -1,0 +1,13 @@
+.contact {
+    height: 100vh;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.user-info>ul>li{
+    list-style: none;
+    font-style: italic;
+}
+.contact-content{
+    display: flex;
+}

@@ -1,0 +1,35 @@
+.main-header {
+    z-index: 1;
+    height: 6em;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav {
+    height: 3.7vh;
+}
+
+.nav > li {
+    padding: 0.5em 1em 0.5em 1em;
+    display: inline-block;
+}
+
+.nav > li:hover {
+    border-bottom: 4px solid #e8bf5d;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 168px;
+    height: 18px;
+    background-image: url("../image/logo.png");
+}
