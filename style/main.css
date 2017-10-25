@@ -11,12 +11,6 @@
     justify-content: center;
 }
 
-.black-sections {
-    background: rgba(17, 17, 17, 0.9) url("../image/black-line.png");
-    width: 100%;
-    color: #b9b9b9;
-}
-
 .my-form {
     margin-right: 3em;
     line-height: 31px;
@@ -45,6 +39,13 @@ footer {
     height: 16px;
 }
 
+.black-sections {
+    background: rgba(17, 17, 17, 0.9) url("../image/black-line.png");
+    width: 100%;
+    color: #b9b9b9;
+}
+
 .white-sections {
     background-image: url("../image/white-line.png");
+    width: 100%;
 }
