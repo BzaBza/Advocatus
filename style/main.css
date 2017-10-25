@@ -12,7 +12,7 @@
 }
 
 .black-sections {
-    background: url("../image/White.png");
+    background: rgba(17, 17, 17, 0.9) url("../image/black-line.png");
     width: 100%;
     color: #b9b9b9;
 }
@@ -43,4 +43,8 @@ footer {
     background-image: url("../icons/icons.png");
     width: 113px;
     height: 16px;
+}
+
+.white-sections {
+    background-image: url("../image/white-line.png");
 }

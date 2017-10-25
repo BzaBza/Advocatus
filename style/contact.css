@@ -13,3 +13,7 @@
 .contact-content {
     display: flex;
 }
+
+.submit-button {
+    margin-left: 2em;
+}
